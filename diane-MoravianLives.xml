@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/djakacki/moravianlives/master/TEI_Memoirs/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="raw.githubusercontent.com/djakacki/moravianlives/master/TEI_Memoirs/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
    <teiHeader>
       <fileDesc>
@@ -74,9 +74,9 @@
                <msIdentifier>
                   <repository>Repository Name</repository>
                   <msName type="memoir" ana="#">Name</msName>
-                 <!--   &lt;msName facs="http://moravianlives.bucknell.edu/##-01.jpg" /&gt;
+                 <!--    &lt;msName facs="http://moravianlives.bucknell.edu/##-01.jpg" /&gt;
                   &lt;msName facs="http://moravianlives.bucknell.edu/##-02.jpg" /&gt;
-                  &lt;msName facs="http://moravianlives.bucknell.edu/##-03.jpg" /&gt;  -->
+                  &lt;msName facs="http://moravianlives.bucknell.edu/##-03.jpg" /&gt;   -->
                </msIdentifier>
             </msDesc>
          </sourceDesc>
