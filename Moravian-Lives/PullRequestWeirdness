@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/moravianlives/ML/master/Projects/TEI_Memoirs/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="http://moravianlives.bucknell.edu.s3.amazonaws.com/data/ml_cwrc.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Peter Jacob Planta: Memoir</title>
+				<funder>The Moravian Lives Project</funder>
+				<principal><persName xml:id="kfaull">Katherine Mary Faull</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+					<address>
+						<addrLine>Lewisburg, Pennsylvania</addrLine>
+					</address>
+					<email>faull@bucknell.edu</email>
+				</principal>
+				<principal><persName>Christer Ahlberger</persName>, Principal Investigator, 2015-2018 <orgName>University of Gothenburg</orgName>
+					<address>
+						<addrLine>Gothenburg, Sweden</addrLine>
+					</address>
+					<email>christer.ahlberger@history.gu.se</email>
+				</principal>
+				<respStmt>
+					<persName xml:id="JAKA1">Diane Jakacki</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Project Manager</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mmcguire">Michael McGuire</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Developer</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="cmasonheimer">Carly Masonheimer</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant and encoder, 2018-2019</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mcohen">Marleina Cohen</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant and encoder, 2018-2019</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="jhom">Jess Hom</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant and encoder, 2018-Present</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mmcmullen">Morgan McMullen</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant and encoder, 2019-Present</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mgruner">Marita Gruner</persName>
+					<orgName>University of Greifswald</orgName>
+					<resp>Encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="skanneman">Sarah Kannemann</persName>
+					<orgName>University of Mainz</orgName>
+					<resp>Encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="jschaumberger">Justin Schaumberger</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant, encoder, ontologist, 2019-Present</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="cpirmann">Carrie Pirmann</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Transkribus, Text Encoding Specialist</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="bking">Brian King</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Consultant, Machine Learning</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="bacharya">Bhagawat Acharya</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<orgName>The Moravian Archives</orgName>
+					<address>
+						<addrLine>41 West Locust Street</addrLine>
+						<addrLine>Bethlehem, PA 18018-2757</addrLine>
+						<addrLine>info@moravianchurcharchives.org</addrLine>
+					</address>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<distributor>The Moravian Lives Project</distributor>
+				<availability>
+					<licence>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository ref="mlpla000004">Moravian Archives, Fetter Lane</repository>
+						<msName type="memoir" ana="MCH/MemLon_300039">Peter Jacob Planta</msName>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-01.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-02.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-03.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-04.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-05.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-06.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-07.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-08.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-09.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-10.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-11.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-12.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-13.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-14.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-15.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-16.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-17.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-18.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-19.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-20.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-21.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-22.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-23.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-24.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-25.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-26.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-27.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-28.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-29.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-30.jpg"/>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer_external_users_debugging/master/Moravian-Lives/PullRequestWeirdness?place_annotation_20200320094553352",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-03-20T15:45:53.352Z",
+	"dcterms:issued": "2020-03-20T15:48:32.571Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer_external_users_debugging/master/Moravian-Lives/PullRequestWeirdness?place_annotation_20200320094553352#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer_external_users_debugging/master/Moravian-Lives/PullRequestWeirdness",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer_external_users_debugging/master/Moravian-Lives/PullRequestWeirdness?place_annotation_20200320094553352#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Ockbrook",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer_external_users_debugging/master/Moravian-Lives/PullRequestWeirdness?date_annotation_20200320094632943",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-03-20T15:46:32.943Z",
+	"dcterms:issued": "2020-03-20T15:48:32.573Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer_external_users_debugging/master/Moravian-Lives/PullRequestWeirdness?date_annotation_20200320094632943#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer_external_users_debugging/master/Moravian-Lives/PullRequestWeirdness",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer_external_users_debugging/master/Moravian-Lives/PullRequestWeirdness?date_annotation_20200320094632943#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1815-05-06"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description></rdf:RDF></xenoData><profileDesc>
+			<particDesc>
+				<person role="subject">
+					<persName ref="#">Peter Jacob Planta</persName>
+				</person>
+			</particDesc>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>Created TEI file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text type="memoir">
+		<body xml:lang="en">
+			<div type="memoir">
+				<head>Peter Jacob Planta</head>
+				<div type="page" n="1">
+					<head type="page">1</head>
+					<pb n="1" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-01.jpg"/>
+					<p>
+						
+							Memoir of the Life of our late venerable &amp; 
+							happily departed Br Peter Jacob Planta, who 
+							entered into joy of his Lord, at <placeName ref="http://dbpedia.org/resource/Ockbrook" key="Ockbrook" cert="high">Ockbrook</placeName>, 
+							<date when="1815-05-06" cert="high">May the 6th 1815</date>, in the 94th year of 
+							his age, written by himself.
+							I was born at Jonkioping a town in
+							Sweden, Dec.r the 5th, old stile in the
+							year 1721. My Father's name was Jacob
+							Planta &amp; my Mother's maiden name
+							Martha Ruda. They were both of the
+							Lutheran Religion. I had two sisters,
+							the elder was born during my Mother's
+							marriage to her first husband, whose
+							name was Peter Hilling. Our Parents
+							spared no pains in giving us a religious
+							&amp; genteel education; we had morning
+							&amp; evening prayers in the family, to
+							which the servants were also admitted.
+							My dear Mother would often read in
+							the bible, &amp; after prayers, used to re
+							late to us pleasing scriptural his
+							tories, especially such as had a reference
+							to the life, sufferings &amp; death of our
+							dear Lord &amp; Saviour, &amp; also his conversations 
+						
+					</p>
+				</div>
+				<div type="page" n="2">
+					<head type="page">2</head>
+					<pb n="2" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-02.jpg"/>
+					<p>
+						
+							with his disciples &amp; some of the persecut
+							tions which the latter had to endure for
+							his sake. On such occasions I used to
+							sit on her lap, &amp; sometimes asked what
+							reward the disciples had for their faithful
+							ness to our Saviour: to which she replied:
+							"They are richly rewarded for they are now
+							exceeding happy with Him in his heavenly
+							kingdom, singing his praises, &amp; adoring
+							him for ever! I said with tears, O my
+							dear Mamma, I wish that I had lived at
+							the time our Saviour was upon earth,
+							I also would have served him &amp; suffered
+							for his sake. My Mother replied weeping,
+							my dear child, if you had lived at that
+							time you might perhaps have been of
+							the number of those who cried out, cru
+							cify him! crucify him! I said, O no, I never
+							would, but I should have loved him dearly.
+							She then blessed me, &amp; prayed the Lord to
+							keep me as his property, &amp; to preserve
+							me throughout my future life from sin,
+							&amp; the seductions of this evil world, until
+							I should be with him in his heavenly
+							kingdom, &amp; then added that all those who
+							loved &amp; served him here, would share
+							in the same blessings which his disciples
+							did. - This made a deep impression on my
+							mind, &amp; was the first time when I 
+						
+					</p>
+				</div>
+				<div type="page" n="3">
+					<head type="page">3</head>
+					<pb n="3" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-03.jpg"/>
+					<p>
+						
+							but to have felt a real &amp; tender love &amp;
+							attachment in my heart to our dear Saviour,
+							&amp; in the sequel I always wished &amp; prayed that I
+							might become &amp; remain a true child of
+							God. When I was about 4 years of age,
+							I experienced a remarkable preservation
+							of my life. Having ran out of the house
+							unobserved, with a spoon in my hand, I
+							came to Lake Wetter, which was not
+							far distant from our house, &amp; there
+							being a broad plank laid over the water,
+							I got to the end of it, &amp; was sitting on
+							it, playing with the water, &amp; throwing
+							it up with the spoon, admiring the 
+							drops which appeared to me like pearls.
+							A woman who came to fetch water, called
+							out to me to take care that I did not fall
+							into the water, to whom I replied: I will
+							not fall in, but she had scarcely returned
+							to her house before she thought that she
+							heard a plunge in the water, upon
+							which she set down her pail, &amp; ran
+							towards the lake. Perceiving me in
+							the water, she ventured in, &amp; with difficul
+							ty caught hold of me by the hair of my
+							head, &amp; drawing me out, she laid me
+							across the plank, believing me to be
+							dead. She then carried me home to my
+							Parents, who, with the whole family were 
+						
+					</p>
+				</div>
+				<div type="page" n="4">
+					<head type="page">4</head>
+					<pb n="4" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-04.jpg"/>
+					<p>
+						
+							greatly alarmed, &amp; exceeding distressed, as they
+							could perceived no signs of life in me. I
+							was however put into a warm bed, &amp; after
+							some time, while they were lamenting over
+							me, I came to myself &amp; said dear Mamma
+							don't cry for me, I am here, &amp; to the great
+							joy of the whole family I recovered. As
+							I increased in years, I experienced several
+							preservations of my life, having been
+							in danger of losing it, both by fire &amp; water
+							&amp; once escaped being murdered. My Parents
+							being desirous to give me a good education,
+							procured a private Tutor in the house,
+							until I went to a large school, in which
+							I continued till my Father's happy depar
+							ture, which took place in my 10th year.
+							My Mother's intention was that I should
+							continue my studies, wishing me to be
+							a Minister of the Gospel, which also accord
+							ed with my inclination. However a
+							Relation persuaded my Mother to put
+							me apprentice to an eminent Surgeon
+							&amp; Apothecary in Gothenburg. Here I had
+							a favorable opportunity to learn Pharmacy
+							&amp; Chemistry, &amp; as my master had very
+							extensive practice, &amp; employed me to
+							visit his patients, I gradually began
+							to practice myself. &amp; gave considerable
+							satisfaction to my employer.
+							Having been awakened to a sense of
+						
+					</p>
+				</div>
+				<div type="page" n="5">
+					<head type="page">5</head>
+					<pb n="5" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-05.jpg"/>
+					<p>
+						
+							my lost condition, I was for several years
+							much concerned for my salvation, yea I may
+							say ever since I was a child, the Holy Ghost
+							carried on his work in my heart, by which 
+							I was prevented from many sinful things, altho'
+							I did frequently fall into sin, repenting &amp; sinning
+							alternately, so that when I would do good, evil
+							was present with me. I felt frequently a
+							great desire to separate myself from the
+							world, &amp; used to walk in the fields, where I
+							could be alone, praying to our dear Saviour,
+							in which I took great delight. At such
+							times I felt much pleasure in singing,
+							praises &amp; thanksgiving God; &amp; nothing
+							afforded me greater joy, than to thank our
+							Saviour for the many preservations I had
+							experienced from him, when in danger of
+							my life. However I also, alas! often forgot
+							myself, &amp; gave way to levity when play
+							ing with my companions. But the good
+							spirit of God frequently reminded me 
+							to seek the One thing needful. I felt a
+							strong desire to be a child of God, &amp;
+							when I was invited with my Parents
+							to entertainments, at which was music
+							&amp; dancing, I felt afterwards, great un
+							easiness, &amp;, like one who is sick, not
+							understanding properly the accusations
+							of my conscience. When I was about 13
+							years of age I had a great desire to 
+							enjoy the Holy Comn, for which purpose 
+						
+					</p>
+				</div>
+				<div type="page" n="6">
+					<head type="page">6</head>
+					<pb n="6" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-06.jpg"/>
+					<p>
+						
+							I underwent an examination, &amp; was encouraged
+							to partake. The first time I had the favor to
+							approach the table of the Lord, it was with
+							fear &amp; trembling, lest I should receive it
+							unworthily, but at the enjoyment of this divine
+							repast, I felt exceedingly happy, yea more
+							so than I can express. In the sequel, whilst
+							the Holy Ghost was operating upon my heart,
+							I frequently examined myself, fearing I was
+							not yet a child of God, &amp; yet earnestly
+							desiring to be one. Such was the state of
+							my mind when I came to Gothenburg. I
+							experienced, at first much attention from the
+							family in which I resided as an Apprentice, so
+							long as I conformed to every thing in it. How
+							ever the great concern I had for my salvation
+							&amp; the thought of not being a child of God, gave
+							me much uneasiness. I was always glad
+							whenever I could be alone, &amp; pour out the desire
+							of my heart before God, &amp; frequently prayed
+							in stillness to him. I also resolved to with
+							draw from all worldly amusements &amp; to
+							spend the little time I had to myself, in
+							spiritual exercises, longing to be assured that
+							I was a child of God. Sometimes I
+							arose in cold frosty nights, prostrating
+							myself before God, &amp; praying most fer
+							vently unto him, but it afforded me
+							no relief. I thought then that my
+							sorrow for my sins was not yet great 
+						
+					</p>
+				</div>
+				<div type="page" n="7">
+					<head type="page">7</head>
+					<pb n="7" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-07.jpg"/>
+					<p>
+						
+							enough &amp; often repeated the 10 Command
+							ments, in order to see &amp; feel my deviations
+							&amp; sins, but as I could not cry &amp; weep like
+							David, who all the night made his bed to
+							swim, &amp; watered his couch with his tears,
+							I thought my grief was not intense enough.
+							But all my endeavours were in vain, because
+							I erred, in supposing that if I could but weep
+							much over my sins &amp; repent of them, then
+							the Lord would receive me as his child, &amp; com
+							fort me. I was convinced of the all sufficiency
+							of our Lord &amp; Saviour, suffering for sinners,
+							but thought I must be thus qualified before
+							I could receive this blessing. I became now
+							very zealous, frequently reproving others for sin,
+							&amp; my singular conduct brought on me much
+							persecution &amp; hatred, which however I
+							gladly suffered, bearing all with patience
+							&amp; never resenting any ill treatment, but
+							on the contrary did such persons all the
+							service I could, &amp; whenever opportunities
+							offered, spoke to them concerning our Saviour.
+							Two persons in the family where I lodged
+							being awakened to a sense of their lost
+							condition, one of them caused me much
+							trouble &amp; uneasiness, on account of his
+							fears &amp; unbelief, thinking he could not be
+							forgiven. He fell at last into a
+							melancholy, frequently hiding himself, 
+						
+					</p>
+				</div>
+				<div type="page" n="8">
+					<head type="page">8</head>
+					<pb n="8" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-08.jpg"/>
+					<p>
+						
+							&amp; even attempted to take away his life so that
+							he appeared in a state of mental derangement.
+							I used my utmost endeavours to nurture him,
+							fearing that in case he should commit suicide
+							a great dishonor would be brought on the gospel.
+							with
+							One time he sent me a message his last fare
+							well, having locked himself up with a view to
+							self-destruction. This caused me unspeak
+							able distress, &amp; tho' I was at that time en
+							gaged in very urgent business, &amp; in company
+							with several persons, yet I took the key of
+							the cellar, ran down &amp; locked the door, &amp;
+							kneeling down by a hogshead of turpentine, I wept
+							&amp; prayed most fervently to our Saviour, (with
+							great confidence), that he would preserve the poor
+							man's life, &amp; it seemed to me as if I heard
+							a voice saying - Be comforted, no evil shall
+							hurt him. This I believed, &amp; arose, giving
+							thanks to God my Saviour, &amp; returned cheerful
+							ly to my business, till about 12 o'clock at night,
+							being uneasy in my mind, I removed some
+							boards &amp; other things, when I found him alive
+							&amp; feeling thankful to God for his preservation,
+							executed
+							I asked him why he had not performed his
+							intention, to which he replied, that when he
+							was about to attempt it, he fell, &amp; all his
+							strength was taken from him, so that he
+							could neither move a limb, nor speak
+							a word, till I came. I spoke comfortably
+							to him, encouraging him to take his
+							refuge to our Saviour &amp; conducting him
+							to his room, I prayed with him, &amp; in the
+							sequel he grew better. The other person
+						
+					</p>
+				</div>
+				<div type="page" n="9">
+					<head type="page">9</head>
+					<pb n="9" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-09.jpg"/>
+					<p>
+						
+							who was awakened was the Cook, who
+							died suddenly, but very happily. She had
+							been much beloved by her Mistress, &amp;
+							her Mistress' Mother, &amp; her sudden death
+							caused the old Lady to swoon away. I was
+							then, (altho I had been much despised &amp;
+							derided on account of religion,) called upon
+							to speak comfort to the old lady, &amp; as soon
+							as she recovered, she took me by the hand
+							&amp; begged my pardon, adding: "I have been 
+							the cause of the persecution you have suffered."
+							I replied, 'I have no occasion to forgive you,
+							for you have done me more good than harm, since
+							it has caused me to cleave closer to my Sa
+							viour, who will hear the prayers of all repent
+							ing sinners. Thus her hatred &amp; persecution were
+							turned into great love &amp; kindness. About
+							this time I attended the preaching of the
+							Revd Mr Lindberg in Gothenburg. He observed
+							in his sermon, that there were several kinds
+							of people, who were hindered from enjoying
+							the happiness which the Lord would willingly
+							bestow upon them, if they would but come in
+							the way &amp; order of his appointment. Among
+							one of these sorts of well meaning souls, I
+							found myself so completely described as if I
+							had opened my whole mind to him. He
+							remarked that some people thought that if 
+							they could arrive at a certain degree of ex
+							cessive grief &amp; anguish, &amp; could shed repenting
+							tears night &amp; day, that then the Lord 
+						
+					</p>
+				</div>
+				<div type="page" n="10">
+					<head type="page">10</head>
+					<pb n="10" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-10.jpg"/>
+					<p>
+						
+							would have mercy upon them, forgive them
+							all their sins, &amp; be gracious unto them. But,
+							said he, this is worth nothing, for nothing is 
+							meritorious on our part. Nothing but alone
+							the meritorious holy life, bitter sufferings, bleeding
+							&amp; dying of our Lord &amp; Saviour Jesus Christ,
+							his being wounded for our transgressions, &amp; his
+							sorrows &amp; anguish until death, this alone
+							meritorious, &amp; whoever can believe this,
+							will obtain mercy &amp; forgiveness of all his sins.
+							He added - My dear Friend, whoever thou art
+							&amp; wherever thou art standing or seated in this
+							place - Come with me, &amp; let us mount up
+							by faith to Mount Calvary, &amp; behold the
+							Cross of Christ, the suffering Lamb of God,
+							view his wounds, his thorny crown, &amp; all his
+							torments by faith. It was then, that with
+							a happy astonishment I truly beheld, as
+							for me, my Saviour bowing his head,
+							&amp; giving up his spirit into the hands of
+							his dear heavenly Father, &amp; in that mo
+							ment all my uneasiness &amp; heaviness,
+							which had tormented my conscience
+							forsook me, &amp; I was filled with such
+							joy &amp; happiness, as not to be able to 
+							describe it, &amp; I heard no more what
+							the Preacher said, but rejoiced in stillness,
+							thanking my dear Saviour, being fully
+							assured that he had forgiven me all
+						
+					</p>
+				</div>
+				<div type="page" n="11">
+					<head type="page">11</head>
+					<pb n="11" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-11.jpg"/>
+					<p>
+						
+							my sins. I returned home filled with
+							Gratitude &amp; entering my chamber, I 
+							Locked the door, fell prostrate before him,
+							&amp; offered him the sacrifice of thanksgiving.
+							I felt as new born, but this lasted only a
+							day &amp; a half, when a person treated me ill,
+							with
+							Which caused anger to arise in my breast,
+							altho’ I did not reply one word, yet it caused 
+							lose 
+							me to lose this impression of happiness, &amp;
+							plunged me into distress, so that I could
+							not rest, fearing I had lost the grace
+							bestowed upon me, &amp; should be lost. I called
+							upon a Minister, to whom I opened my mind,
+							&amp; informed him of my situation &amp; grief. He
+							comforted me with these words: “My dear friend,
+							the Apostle Peter once asked the Lord Jesus,
+							how often he should forgive his brother? Till
+							seven times?” To which our Lord replied:
+							I say not unto thee until 7 times, but
+							until 70 times 7. Now if our good Lord, 
+							commanded a sinful man to forgive his 
+							brother so often, what must not he himself 
+							do, when a poor sinner repents, &amp; prays 
+							to him for forgiveness, since he is the foun
+							tain of all goodness, grace &amp; mercy!” I asked 
+							him if I might pray to our Saviour to
+							forgive me? to which he replied:
+							certainly, for as often as we fall we 
+							must rise &amp; go to our merciful
+							Saviour, who will in no wise cast out
+							those who come to him. I asked 
+						
+					</p>
+				</div>
+				<div type="page" n="12">
+					<head type="page">12</head>
+					<pb n="12" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-12.jpg"/>
+					<p>
+						
+							&amp; may I go to him whenever I want com
+							fort? to which he answered, By all
+							means. This proved a great comfort to
+							me &amp; it caused me to feel quite happy,
+							because our Lord would be so gracious
+							I followed his advice &amp; found comfort. Feeling
+							myself one time exceeding unworthy, so that
+							I durst not venture to go to the Holy Comn
+							I called upon a pious Clergyman to whom 
+							I opened my whole mind. He comforted me
+							by saying: My dear Friend, even such as you
+							are, the Lord Jesus calls to come, for he
+							says: "Come until me all ye that labor &amp;
+							are heavy laden &amp; I will give you rest;
+							take my yoke upon you &amp; learn of me
+							for I am meek &amp; lowly in heart, &amp; ye
+							shall find rest unto your souls. He
+							admonished me not to absent myself,
+							adding that he intended the following Sunday
+							to partake of the H. Comn himself &amp;
+							that if I would attend, the Lord would
+							certainly bless &amp; comfort me. Hereupon
+							I ventured with trembling, &amp; during the
+							participation experienced inexpressible joy
+							&amp; comfort. During the time when I ex
+							endured
+							perienced much persecution, I felt a 
+							great desire to become acquainted with
+							a genuine child of God, if there were
+							any in this world, &amp; often prayed that
+							the Lord would bring it about. And
+							was once walking in a private place
+						
+					</p>
+				</div>
+				<div type="page" n="13">
+					<head type="page">13</head>
+					<pb n="13" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-13.jpg"/>
+					<p>
+						
+							and weeping, I perceived a hill on the top of
+							which was a cavity, which when I perceived, I
+							rejoiced, thinking this a suitable place, in which
+							I could pour out my whole soul before the Lord,
+							unobserved as I thought by any one. I em
+							braced this opportunity with gratitude, &amp;
+							kneeling down, prayed with fervor to our Saviour,
+							mentioning to him all my concerns, intreating
+							him with great earnestness, if there was any
+							genuine child of God in the world, he would
+							bring him to me, or me to him, in order 
+							that we might become acquainted, during
+							which prayer I felt richly comforted with
+							his divine presence. Whilst I was at prayer,
+							it happened that 2 persons belonging to the
+							Brn's Congn came that way, &amp; when they
+							arrived near the summit of the hill, they
+							heard the sound of a voice, &amp; the one observed
+							to the other, that there was a poor sinner
+							praying to our Saviour. Let us (said they,)
+							not disturb him. One of them however,
+							came softly &amp; unperceived by me, to the
+							summit, &amp; knew me, as I was in a public
+							line of business. I did not, at that time,
+							know that there was such a people as the
+							United Brn, nor even that there were any
+							awakened in Gottenburg who were so near to
+							me. The above 2 Brn persons acquainted the
+							Brn on their return, what they had observed.
+							Some days after, a certain Bn, who was a 
+							gentleman's gardener, &amp; who was in the habit
+							of coming to our house, &amp; supplying us with 
+						
+					</p>
+				</div>
+				<div type="page" n="14">
+					<head type="page">14</head>
+					<pb n="14" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-14.jpg"/>
+					<p>
+						
+							medicinal herbs, began to notice me in a
+							manner he had never done before, &amp; at last
+							invited me to pay him a visit. I thanked
+							him, but excused myself with observing that
+							I had no time to spare, &amp; if I had any I
+							knew how to make a better use of it; for
+							I franed to his enticed to enter into worldly
+							amusements. However he came in the sequel
+							to visit me occasionally, &amp; one Sunday called
+							a little before service time, on purpose
+							that he might be with me alone. When
+							all were gone to Church, he said to me,
+							My Friend, I believe you to be a person
+							who loves our Saviour, &amp; I am another,
+							would it not be well if we were better
+							acquainted? I was struck with astonish
+							ment, &amp; explained: What! are you a child
+							of God? he answered with a friendly mien,
+							Yes. I said: then the Lord has heard my
+							prayers. I rejoiced exceedingly, fell about
+							his neck &amp; wept for joy. He said:
+							Will you, my Friend, come &amp; see me now.
+							I replied yes, that I will with all my
+							heart, &amp; God willing this day. He then
+							gave me a ticket that I might not
+							be hindered by the Porter when entering
+							his Garden. After divine service (having 
+							requested leave,) I set off, &amp; walking there a
+							large ground, on a broad foot path, I per
+							ceived a Gentleman's carriage, stopping 
+						
+					</p>
+				</div>
+				<div type="page" n="15">
+					<head type="page">15</head>
+					<pb n="15" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-15.jpg"/>
+					<p>
+						
+							in the high road, &amp; the Gentleman &amp;
+							his servant getting out. They got over the
+							fence &amp; ran towards me. Altho, I might
+							have easily ran away I stopped, thinking that
+							right
+							I was not on the road, altho' it appeared to me
+							like a public path. When the Gentleman
+							came up to me, he immediately pulled off
+							my cloak, &amp; gave it in anger to his servant,
+							adding who gave you leave to walk here?
+							I replied humbly that I had not known I
+							was trespassing, &amp; begged pardon, while at 
+							the same time I unbuttoned my coat, with
+							a view to give him that also, calling to
+							mind our Saviour's words: Him that
+							taketh away thy cloak, forbid not to take
+							thy coat also; upon which his anger sub
+							sided. I then asked permission to return,
+							but he said, As you have come so far you
+							may proceed. He refused however to take
+							my coat, but kept my cloak, upon which
+							we parted. When I arrived at the garden
+							&amp; had shown my ticket, I was admitted
+							&amp; going up to the house, I knocked at the
+							door but when it was opened, I saw many
+							persons in the house; &amp; thinking they
+							were worldly-minded people I shut the
+							door in haste, &amp; returned into the garden
+							weeping. My friend followed me, &amp;
+							asked the cause of my weeping? I re
+							plied that I was exceedingly sorry that I 
+							was deceived, for if he were a child of
+							God, he would not have such a number
+						
+					</p>
+				</div>
+				<div type="page" n="16">
+					<head type="page">16</head>
+					<pb n="16" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-16.jpg"/>
+					<p>
+						
+							of people with him: He answered: But
+							what will you say, when I inform you
+							that all these persons are children of
+							God, Come &amp; see. I said, that I could 
+							not have believed there were so many
+							children of God in the whole world.
+							Having entered the house &amp; standing at
+							the door, I asked with surprise, if all
+							present were children of God, which
+							was answered in a friendly manner in
+							the affirmative. I said with tears of joy,
+							then I am not worthy to be among you.
+							However they asked me to sit down &amp; they
+							would communicate some written accounts
+							from the Brns Congn. I said, is there
+							indeed a Congn of Brn existing in our
+							times, like the Congns in the times of the
+							Apostles? They replied: yes I said:
+							Then I wish to live in such an one,
+							to which they answered, if it was the
+							will of our Saviour that I should, he would
+							bring it to pass. In this manner I got
+							acquainted with the Brn &amp; after this
+							interview longed to attain my wish,
+							but could not accomplish it for several 
+							years. 
+							A considerable time after my appren
+							ticeship was expired, it happend that
+							Frederic the 1st King of Sweden, visited
+							the city of Gothenburg, &amp; his Physician
+							Count Vigand lodged in our house,
+						
+					</p>
+				</div>
+				<div type="page" n="17">
+					<head type="page">17</head>
+					<pb n="17" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-17.jpg"/>
+					<p>
+						
+							by whom interest, a short time after,
+							an offer was made me to be employed
+							in the Royal Apothecary's shop in Stock
+							holm, where all the medicines for the
+							King &amp; Royal Family were prepared, as
+							also for many of the Nobility. This
+							changed pleased me much, particularly
+							as many Brn were in Stockholm, &amp;
+							set off, altho' my employer was sorry
+							to part with me. On the journey
+							I got acquainted with the King's chap
+							lain, who very kindly invited me to tra
+							vel in his Carriage, &amp; desired his Servt
+							to travel in my small carriage, &amp; thus
+							we arrived safe &amp; well in Stockholm.
+							In this city, I frequently visited the pa
+							tients of Dr Vigand, who treated me
+							very kindly, &amp; had also an opportu
+							nity of visiting the Brn. Altho I
+							had it very agreeable, yet I longed
+							much to live in a Congn of the Brn
+							in Germany, but by the advice of the
+							Brn in Stockholm, I continued there
+							in my employment several years,
+							until my desire grew so strong that
+							I set off in the year 1767 from Stockholm,
+							&amp; arrived July 15th the same year
+							in Herrnhaag. The daily word of
+							that day was, God is with thee in
+						
+					</p>
+				</div>
+				<div type="page" n="18">
+					<head type="page">18</head>
+					<pb n="18" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-18.jpg"/>
+					<p>
+						
+							all that thou dost. Gen: 21. 22. At
+							first objections to my continuance in 
+							this place were made on account of 
+							there being no prospect of employing me.
+							However I began a manufactory of
+							Chocolate which answered so well that
+							I not only had employment myself, but
+							could employ others also. Having in the
+							sequel obtained permission to be an
+							inhabitant of the place, I was recd
+							the same year on Dec. 31 with 49 Brn
+							into solemn manner a member of the
+							Brn's Congn during a most blessed feeling
+							of the Lord's presence.
+							March 25. 1748, I had the favor to
+							partake for the 1st time with the same
+							of the body &amp; blood of our dear Lord in
+							the holy sacrament, which proved a great
+							refreshment &amp; blessing to my hand. In
+							1750, I went by commission, to care for
+							the sick at Lindheim, &amp; the following
+							year accompanied Br Lykefet, who
+							was sick, on a journey to Barby. The
+							night previous to our arrival at Eisen
+							ach, we had both the same dream,
+							viz: that he fell out of the carriage,
+							but our dreams differed in this, that
+							he dreamt that he was killed, &amp;
+							I dreamt that he fell into my arms.
+							This dream was repeated 3 times, at
+							which we grew alarmed, apprehending
+						
+					</p>
+				</div>
+				<div type="page" n="19">
+					<head type="page">19</head>
+					<pb n="19" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-19.jpg"/>
+					<p>
+						
+							some danger awaited us. We arose
+							from bed, &amp; recommended ourselves to the
+							protection of our merciful Saviour, &amp;
+							were greatly comforted, feeling his divine
+							presence with us, &amp; then went to bed
+							again. Early in the morning, we pro
+							ceeded on our journey, &amp; it being cold,
+							I got out of the carriage to walk, in
+							order to get warm, &amp; not recollecting
+							our dreams, I attempted to get into
+							it again, when the wheel went over
+							a stone, Br Lykefet fell out, &amp; I
+							caught him in my arms, by which I
+							was thrown down with him, &amp; which
+							probably prevented the wheel going over
+							him, &amp; neither of us received any hurt,
+							for which we were very thankful to
+							our dear Lord, &amp; arrived safe at safe
+							Barby June 22d In the year 1751,
+							I went with a number of children to
+							Herrnhut, &amp; from thence to Hennersdorf.
+							I followed here, as also in Niskey &amp;
+							other German Congns my medical pro
+							fession.
+							After minding in various settlements of
+							the Brn on the Continent, I arrived
+							Nov. 4 1751 in England, &amp; having spent some
+							time in London arrived Jany 22d 1752, at
+							Fulneck in Yorkshire. Here I assisted the
+							late Br Hurlock in his surgical &amp;
+							chymical employ, &amp; when he moved to London
+						
+					</p>
+				</div>
+				<div type="page" n="20">
+					<head type="page">20</head>
+					<pb n="20" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-20.jpg"/>
+					<p>
+						
+							I succeeded him. In the year 1754, I
+							had the favor to attend the Provincial
+							Synod of the Brn held at Lindsey house,
+							which proved of great use &amp; blessing to me.
+							April 10th 1755, I married my late dear
+							wife, whose maiden name was Lier 
+							June 20th I kept my first public ad
+							dress to the Congn on the text: Whosoever,
+							therefore shall confess me before man, him
+							will I confess before my Father which is
+							in Heaven. Matt 10 32.
+							Having recd &amp; accepted a call to serve
+							the mission in Jamaica, as also the
+							late Br John Brown, we went, Jany
+							2. 1759, on board the Dispatch Captn
+							Carter at Gravesend, &amp; set sail in the
+							morning, but were obliged to cast an
+							chor in the evening. The day proving
+							very stormy, caused us, &amp; several other
+							Passengers to be sick, &amp; we were obliged
+							to be at anchor a fortnight, but spent
+							our time, while in the Downs, in a
+							blessed manner, reading the harmony of the 4
+							Gospels, &amp; enjoying the presence of the Lord,
+							whilst singing in fellowship his praise. The
+							20th early in the morning, a signal was made
+							for the fleet to get under weigh. We
+							were about 250 vessels in Co, besides
+							small craft, &amp; about noon we passed by
+							Dover with a favorable wind, &amp; the 21st
+							cast anchor off Portsmouth, we employed
+							our time in writing to our friends in 
+						
+					</p>
+				</div>
+				<div type="page" n="21">
+					<head type="page">21</head>
+					<pb n="21" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-21.jpg"/>
+					<p>
+						
+							London. The 23d early, our ship's crew
+							attempted to seize a boat, &amp; leave the
+							vessel, the mate having offended them, &amp;
+							alledging they were too few in number to
+							navigate the vessel, however the Captain
+							restored order, &amp; procured several addition
+							al hands on board; about 11p.m. we pro
+							ceeded with a favorable breeze, but the
+							following day, the weather becoming boister
+							ous, we grew very sick. During the
+							night, 2 ships ran foul of each other,
+							&amp; one of them received considerable damage,
+							&amp; was obliged to put back. The 25th
+							we were becalmed, but the following day 
+							the wind rose very high, however I recovered
+							so far that I could keep out of bed, for
+							which I was very thankful. The 30th
+							we were driven to the Irish coast; &amp;
+							entered the harbor of Kinsale, where
+							we went on shore, &amp; as our Captain
+							apprehended we should have a tedious
+							passage, he advised us to lay in more
+							provisions. My wife &amp; I therefore went to
+							a shop to purchase what was needful.
+							The Master &amp; Mistress who were elderly
+							people, inquired if we had come with
+							the fleet from London, to which we
+							replied that we had. They Said : May
+							God forbid! I asked why? They added,
+							we appeared very unsuitable for Jamai
+							ca, since none but such whose character
+							was bad went to that Island, &amp; they
+						
+					</p>
+				</div>
+				<div type="page" n="22">
+					<head type="page">22</head>
+					<pb n="22" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-22.jpg"/>
+					<p>
+						
+							would advise us to relinquish the
+							voyage, &amp; as I was in the medical
+							line, they wished we would reside with
+							them, &amp; they would lodge &amp; board us, &amp;
+							as they had many friends in the Town who
+							would be glad to employ me, I should soon
+							have plenty of practice, or if we pre
+							ferred returning to London, they would
+							send us free of expense thither in one of
+							of their own vessels, which would sail in
+							a few days Thanking them for their
+							kindness to strangers, as we were to
+							them, we replied that it was our in
+							tention to proceed. They asked, what could
+							induce us to proceed in such a step? I
+							added, that altho' I might probably
+							practice physic &amp; surgery in that
+							Island, yet my chief design was, to preach
+							the gospel to the Negro slaves &amp; endeavour to be
+							instrumental in turning them from darkness to
+							light, &amp; from the power of Satan unto God
+							their Saviour. They replied Then go in
+							the name of God, for this is a good work, &amp;
+							we should be sorry to hinder it.
+							April 18, we got sight of Jamaica,
+							having been 5 months on board, &amp; were
+							truly glad, when on the 19th about noon, we
+							cast anchor in the harbor of Port Royal, we
+							hired a boat, &amp; proceeded to Kingston, &amp;
+							landed about 3 miles from Carmel. Colonel
+							Brook &amp; his Lady met us, &amp; bid us welcome,
+							inviting us to dine at their house, &amp; sent
+							us in their carriage to Carmel, where we
+						
+					</p>
+				</div>
+				<div type="page" n="23">
+					<head type="page">23</head>
+					<pb n="23" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-23.jpg"/>
+					<p>
+						
+							met with a truly cordial reception from
+							our Brn &amp; Srs, &amp; who with us rejoiced
+							at our arrival, &amp; thanked our merciful 
+							Lord for his preservation on our voyage.
+							In this Island our late Brother served
+							both in his medicinal capacity, &amp; in the 
+							Mission, as a devoted servant of the Lord,
+							spending his time &amp; talents for that Saviour,
+							whom he truly loved, &amp; in whom he had found 
+							pardon, peace &amp; eternal life. In those 
+							Diaries which he kept during his abode
+							in that Island, it appears that he was
+							earnestly solicitous to promote the happiness
+							of those souls committed to his care, &amp; that
+							during his services there, he endured not 
+							only many hardships, but also escaped
+							many dangers, but it was apparent that
+							none of these things moved him, neither
+							counted he his life dear unto himself,
+							so that he might finish his course
+							with joy, &amp; the ministry which he had
+							received of the Lord Jesus Christ, to testi
+							fy the gospel of the grace of God. A few 
+							extracts out of his diaries will suffice
+							to show his state of heart &amp; mind. He
+							writes thus: “By degrees I got also my 
+							choice of sufferings, but which, in due
+							times my Saviour terminated, &amp; which 
+							he enabled me to bear with patience.
+							They had a salutory effect upon my soul
+							It was a delight to me to serve my 
+							dearest Saviour, which I did in preaching
+						
+					</p>
+				</div>
+				<div type="page" n="24">
+					<head type="page">24</head>
+					<pb n="24" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-24.jpg"/>
+					<p>
+						
+							his Gospel in various places in Jamaica
+							both to so called Christians &amp; Heathens. 
+							I feel truly thankful to my Saviour, who
+							always comforted me where I met with
+							afflictions, &amp; strengthened &amp; upheld me,
+							when fatigued in body &amp; in mind. For 
+							I had to ride out both in the day &amp;
+							night time, in attending the sick,
+							which wearied me often to such a degree,
+							that I was ready to faint. My gracious
+							Lord, however supported me at such 
+							times, &amp; in such a manner, that I 
+							cannot recollect even once to have refrined
+							at my situation.
+							In the time of Rebellion among the 
+							Negroes, when many white people lost
+							their lives, I never took any weapons of 
+							defence with me when I rode out, altho 
+							advised by many to do so, &amp; yet I always 
+							escaped unhurt to my own astonishment, 
+							I generally replied to such advice, I trust 
+							in the Lord my God who can preserve 
+							me in all danger, &amp; this confidence he 
+							never put to shame, blessed be his holy 
+							name.
+							I will have relate, many divers instances, 
+							several proofs of the gracious, care &amp; preserva
+							tion, which I have experienced, &amp; record
+							them to the praise &amp; glory of my deliverer 
+							&amp; Saviour.
+							Travelling once in an extensive, woody, 
+							&amp; mountainous place, with a view to 
+						
+					</p>
+				</div>
+				<div type="page" n="25">
+					<head type="page">25</head>
+					<pb n="25" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-25.jpg"/>
+					<p>
+						
+							visit the sick on an estate called One
+							Eye Estate &amp; feeling very happy. I rode slowly,
+							singing some edifying hymns. My servant
+							rode up to me saying, Master is truly
+							happy, to which I replied, I am; but I
+							was not aware of the great danger to
+							which I was exposed, as several runaway
+							slaves, who had turned robbers, were
+							just before us, in pursuit of an Officer,
+							whom they intended to murder &amp; rob, &amp;
+							who arrived a little before us me at this
+							Estate, quite exhausted with fear &amp; weariness.
+							A number of soldiers who were just exercising
+							asked me at my arrival, how I had
+							escaped the Robbers? &amp; when I informed
+							them that I had seen none, they could
+							scarcely believe me, declaring they had seen
+							them enter the wood from when I came.
+							Another time I arrived at an old building
+							which had been uninhabited for many
+							years, &amp; which was situated upon an
+							high hill, in which I took shelter
+							from the rain. A number of robbers 
+							had just left this building, &amp; the last
+							man out when I entered it, being a
+							larmed on seeing others coming up the
+							hill who had been taken prisoners.
+							I thanked the Lord for this gracious
+							interposition, &amp; when I arrived at Colonel
+							Armstrong's house, I found him &amp; his 
+							family standing in the Piazza looking
+							out for me in great anxiety, fearing
+						
+					</p>
+				</div>
+				<div type="page" n="26">
+					<head type="page">26</head>
+					<pb n="26" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-26.jpg"/>
+					<p>
+						
+							I might have fallen into the hands of
+							the Robbers. They all rejoiced at my 
+							escape, as the rebellious Negroes had
+							committed much mischief in that neigh
+							borhood, the preceeding night. The Co
+							lonel wished to prevail upon me to stay
+							with him all night, but I declined his
+							kind offer, &amp; returned to my abode at
+							Edens in the evening, without receiving
+							any molestation, &amp; was glad to find
+							that my wife had received no injury, altho'
+							the Rebels had passed by my house during
+							my absence. Some of them had been that
+							night in our Plantation, but altho our
+							house was situated on a lonely eminence,
+							about the distance of a mile from any other
+							habitation, yet our gracious Lord preserved
+							us; &amp; I could visit my patients, without
+							ever being hurt."
+							Have served the Lord in the Mission
+							in Jamaica, for near 22 years they retur
+							ned to Europe in company with Br &amp;
+							Sr Mack &amp; Br &amp; Sr Smalling. They
+							left Jamaica in the month of May 1780
+							&amp; had an agreeable passage to England, arriving
+							the latter end of July at Portsmouth, from
+							whence they proceeded to London, &amp; from whence
+							our late Br &amp; his wife proceeded to Fulneck,
+							to visit their children, who were in the school
+							for Education. They arrived in the month of
+							October in Oakbrook, where our late Brother
+							assisted in preaching the gospel, &amp; entered
+							upon his medicinal profession. He was
+							universally beloved &amp; respected, both within 
+						
+					</p>
+				</div>
+				<div type="page" n="27">
+					<head type="page">27</head>
+					<pb n="27" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-27.jpg"/>
+					<p>
+						
+							&amp; without the circle of the Brn's Congns.
+							His genuine humility, fervor of love
+							to his Saviour, unshaken reliance upon
+							his all sufficient sacrifice, &amp; his
+							cordiality &amp; amiable deportment, were
+							truly edifying: &amp; it was only necessary
+							to know him to love &amp; esteem him.
+							His late Wife departed into a happy eter
+							nity in Oakbrook on Decr the 17th 1793. His
+							daughter Benigna came from Fulneck, to
+							keep his home, &amp; care for her aged Parent,
+							&amp; which she did with much faithfulness:
+							when however, her state of health was
+							such that she could no longer attend upon
+							her dear Father as formerly, &amp; she in
+							formed him of it, He folded his hands &amp;
+							explained Then my dear Lord take me 
+							first. It was on Thursday May the
+							4th when he was as well as usual, that
+							his daughter, feeling her extreme weakness,
+							had for the first time made him fully
+							sensible that her ability &amp; not her love
+							failed; he then uttered that fervent
+							request to be first taken, &amp; he was that
+							very evening struck for death whilst
+							his daughter was absent at the Sister's
+							Festival to which she had been
+							carried in a chair, &amp; which was the
+							last meeting she attended; her Father
+							departing on the saturday, &amp; herself on
+							the Wednesday following.
+							He lived in a love communion of
+							soul with his Redeemer, &amp; after increas
+						
+					</p>
+				</div>
+				<div type="page" n="28">
+					<head type="page">28</head>
+					<pb n="28" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-28.jpg"/>
+					<p>
+						
+							sing age &amp; infirmities obliged him to
+							relinquish his medical profession alto
+							gether, he enjoyed a sweet sabatic rest, in
+							his retirement, delighting to speak of
+							what the Lord had done for his soul, &amp;
+							always discovering that love to Jesus, which
+							flows from a sense of his pardoning love.
+							Several years back, his recollection began
+							gradually to fail him, &amp; his mental powers
+							grew weaker, but his soul continued alive in
+							those great &amp; momentous subjects upon which 
+							he rested all his hopes for present &amp;
+							eternal salvation. He was for some
+							time, obliged to take to his bed, being
+							exceedingly debilitated, &amp; was accustomed to
+							say, I am well, only very weak, I shall go
+							to my dear Saviour, in his own good time.
+							He was sensible to the last, &amp; when visited
+							by Br Franklin a little before his departure,
+							he stretched forth his arms in a most af
+							fectionate manner towards him &amp; said:
+							"Pray with me." He was then observed to
+							be engaged with his Redeemer, in whom
+							he had an unshaken confidence, &amp; was
+							heard to say in broken accents, Ye are
+							come unto Mount Zion Peace &amp;
+							serenity appeared in his countenance,
+							&amp; nothing seemed to disturb his last
+							moments, his happy soul took flight
+							into the presence of Jesus, on the morning
+							of May 6 in the most easy &amp;
+							gentle manner, &amp; thus this aged Pilgrim
+						
+					</p>
+				</div>
+				<div type="page" n="29">
+					<head type="page">29</head>
+					<pb n="29" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-29.jpg"/>
+					<p>
+						
+							closed his pilgrimage here below, in a
+							full age, like as a shock of corn cometh
+							in his season, in the 94th year of his 
+							age, &amp; as a comment upon the words of the
+							Prophet: The work of righteousness shall
+							be peace, &amp; the effect of righteousness,
+							quietness &amp; assurance for ever. Isa. 32.17.
+							It was something remarkable that his
+							daughter Benigna, who had cared for,
+							&amp; lived with her aged Father, for upwards
+							of 20 years, ever since the departure of
+							her late mother, but who had been in
+							a declining state of health for several
+							years, departed this life on the 10th of the
+							same month, in the 57th year of
+							her age, 4 days after her Father, &amp; their
+							remains were interred on the 13th, when
+							this important visitation was improved by
+							addressing a numerous &amp; respectable assembly,
+							who attended on the occasion in the words
+							of St Paul to Timothy 2d Epistle Chap. 1.12.
+							I know in whom I have believed, &amp; am
+							persuaded that He, is able to keep that
+							which I have committed unto him,
+							against that day. Our late Br has
+							left behind in this vale of tears, a
+							son &amp; a daughter &amp; a number of
+							grandchildren.
+							Let us call to mind with joy,
+							Those who have before us gone,
+						
+					</p>
+				</div>
+				<div type="page" n="30">
+					<head type="page">30</head>
+					<pb n="30" facs="http://moravianlives.bucknell.edu/MCH/MemLon_300039-30.jpg"/>
+					<p>
+						<lg>
+							<l>Who obtain'd the victory,</l>
+							<l>Thro' the blood of Christ alone;</l>
+							<l>That we may most zealously,</l>
+							<l>Imitate their constancy,</l>
+							<l>Till we too the prize receive,</l>
+							<l>And with them in glory live! </l>
+						</lg>
+					</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
